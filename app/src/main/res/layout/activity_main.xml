@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/activity_main"
+    tools:context="com.view.daohang.nfc.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/mFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/mRadioGroup"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="#304D8F"
+        android:layout_height="55dp"
+        >
+        <RadioButton
+            android:layout_marginTop="10dp"
+            android:drawableTop="@drawable/homeselector"
+            android:button="@null"
+            android:checked="true"
+            android:textColor="@color/colorRadioButtonP"
+            android:id="@+id/mRb_home"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:text="首页"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+
+        <RadioButton
+            android:layout_marginTop="10dp"
+            android:drawableTop="@drawable/newsselector"
+            android:button="@null"
+            android:textColor="@color/colorRadioButtonN"
+            android:id="@+id/mRb_message"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:text="已提交"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+
+        <RadioButton
+            android:layout_marginTop="10dp"
+            android:drawableTop="@drawable/findselector"
+            android:button="@null"
+            android:textColor="@color/colorRadioButtonN"
+            android:id="@+id/mRb_find"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:text="未提交"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+
+        <RadioButton
+            android:layout_marginTop="10dp"
+            android:drawableTop="@drawable/settingselector"
+            android:button="@null"
+            android:textColor="@color/colorRadioButtonN"
+            android:id="@+id/mRb_my"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:text="我的"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+    </RadioGroup>
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/about"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:id="@+id/history_Relayout"
+        android:orientation="horizontal"
+        android:background="#304D8F"
+        >
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:padding="3dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/back"
+            />
+        <TextView
+            android:id="@+id/show_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="关于我们"
+            android:textColor="@android:color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+    <ImageView
+        android:layout_marginTop="60dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/logo"
+        android:layout_gravity="center_horizontal"
+        />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="版本号 1.0.0"
+        android:textColor="#000000"
+        />
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#C6C6C6"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        />
+    <ListView
+        android:id="@+id/guanyu_listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:divider="#C6C6C6"
+        android:dividerHeight="0.5dp"
+        >
+    </ListView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#C6C6C6"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        />
+
+</LinearLayout>
