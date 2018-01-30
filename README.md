@@ -1,0 +1,2 @@
+# NFCAPP
+利用网络框架OkHttp、Litepal数据库框架以及手机里面的NFC功能开发的巡检系统
